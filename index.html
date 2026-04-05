@@ -140,7 +140,7 @@
 						</span>
 						<h4 class="my-3">Frontend</h4>
 						<p class="text-muted">
-							HTML, CSS, Bootstrap, and JavaScript. I create
+							HTML, CSS, JavaScript, React, TypeScript. I create
 							responsive layouts that look good on any device.
 						</p>
 					</div>
@@ -153,8 +153,9 @@
 						</span>
 						<h4 class="my-3">Backend</h4>
 						<p class="text-muted">
-							PHP, Laravel, Node.js, Experience with server-side
-							logic, database management, and API integration.
+							Python, Node.js, TypeScript, PHP, Laravel.
+							Experience with server-side logic, database
+							management, and API integration.
 						</p>
 					</div>
 					<div class="col-md-4">
@@ -443,7 +444,7 @@
 			</div>
 		</section>
 
-		<section class="page-section bg-light" id="favourites">
+		<!-- <section class="page-section bg-light" id="favourites">
 			<div class="container">
 				<div class="text-center">
 					<h2 class="section-heading text-uppercase">
@@ -508,7 +509,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 		<section class="page-section" id="contact">
 			<div class="container">
@@ -520,8 +521,8 @@
 				</div>
 				<form
 					id="contactForm"
-					name="sentMessage"
-					novalidate="novalidate"
+					action="https://formspree.io/f/mpqokzzw"
+					method="POST"
 				>
 					<div class="row align-items-stretch mb-5">
 						<div class="col-md-6">
@@ -529,6 +530,7 @@
 								<input
 									class="form-control"
 									id="name"
+									name="name"
 									type="text"
 									placeholder="Your Name *"
 									required="required"
@@ -538,6 +540,7 @@
 								<input
 									class="form-control"
 									id="email"
+									name="email"
 									type="email"
 									placeholder="Your Email *"
 									required="required"
@@ -547,6 +550,7 @@
 								<input
 									class="form-control"
 									id="phone"
+									name="phone"
 									type="tel"
 									placeholder="Your Phone *"
 									required="required"
@@ -558,6 +562,7 @@
 								<textarea
 									class="form-control"
 									id="message"
+									name="message"
 									placeholder="Your Message *"
 									required="required"
 								></textarea>
